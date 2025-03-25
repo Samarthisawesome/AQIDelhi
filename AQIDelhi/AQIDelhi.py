@@ -9,7 +9,7 @@ df = pd.read_csv(file_path)
 
 # Streamlit App
 def main():
-    st.title("New Delhi AQI Data")
+    st.title("AQI Tracker & Visualization")
     st.write("AQI of New Delhi from 2020 to 2024.")
     
     # Sidebar
